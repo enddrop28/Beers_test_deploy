@@ -1,4 +1,4 @@
-##アプリケーション名
+## アプリケーション名
 「Beers」
 
 ## サイト概要
@@ -17,8 +17,8 @@
 「ビールの情報を収集したいときや、新しく初めて飲むビールを探すとき、自分が飲んだ銘柄を投稿するときに使う。」
 
 ## 設計書
-「ER図:https://app.diagrams.net/#G1bqhqRWzloi_0XrqTUUHpluJQBky19H2h」
-「画面設計(未完成):https://xd.adobe.com/view/f48678a8-6a3f-42d7-a171-1c6291506bc9-a1d5/」
+- 「ER図:https://app.diagrams.net/#G1bqhqRWzloi_0XrqTUUHpluJQBky19H2h」
+- 「画面設計(未完成):https://xd.adobe.com/view/f48678a8-6a3f-42d7-a171-1c6291506bc9-a1d5/」
 
 ## チャレンジ要素一覧
 「https://docs.google.com/spreadsheets/d/1Totzi_upbNvzB-Oh8Sbtn-tPG12mL_JCruNvrbAPSZg/edit#gid=0」
