@@ -31,5 +31,4 @@
 - IDE：Cloud9
 
 ## 使用素材
-- 外部サービスの画像素材・音声素材を使用した場合は、必ずサービス名とURLを明記してください。
-- 使用しない場合は、使用素材の項目をREADMEから削除してください。
+ Adobe Stoke:https://www.google.com/aclk?sa=l&ai=DChcSEwjFiJ-9yM30AhXHk2YCHepvDcUYABAAGgJzbQ&ae=2&sig=AOD64_1VMTui66O2aEtHLMOsHsJ3lxO6IA&q&adurl&ved=2ahUKEwiKj5a9yM30AhXRZt4KHf3FA5cQ0Qx6BAgDEAE
