@@ -13,3 +13,24 @@
  *= require_tree .
  *= require_self
  */
+ @import "bootstrap";
+ 
+// main {
+//   min-height: 800px
+//   background-color: #000
+// }＃エラー
+ 
+ footer {
+   background-color: #fffaf0
+ }
+ 
+ .mv {
+   background:url(mv.jpg) center no-repeat; background-size: cover;
+ }
+
+ .mv-top {
+   width: 100%;
+   height: 300px;
+   background-size: cover;
+   background-image: url(mv-top.jpg);
+ }

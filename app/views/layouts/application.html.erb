@@ -10,6 +10,48 @@
   </head>
 
   <body>
+    <div class="mv">
+      <nav class="navbar-expand-lg">
+        <div class="container">
+          <div class="col-4">
+            <%= link_to root_path class:"navbar_brand" do %>
+            
+            <% end %>
+          </div>
+          <div class="navbar_nav ml-auto">
+            <ul class="nav pull-right nav-pills">
+              <% if admin_signed_in? %>
+                <li><%= link_to "会員一覧", user_path, class:"nav-link btn btn-outline-dark mx-2" %></li>
+                <li><%= link_to "ジャンル一覧", category_path, class:"nav-link btn btn-outline-dark mx-2" %></li>
+                <li><%= link_to "投稿一覧", post_path, class:"nav-link btn btn-outline-dark mx-2" %></li>
+              <% elsif user_signed_in?%>
+                <li><%= link_to "Home", root_path, class:"nav-link btn btn-outline-dark mx-2" %></li>
+                <li><%= link_to "About", about_path, class:"nav-link btn btn-outline-dark mx-2" %></li>
+                <li></li>
+                <div class="col text-right">
+                  <p class="font-small">ようこそ、<%= current_user.first_name %>さん！</p>
+                </div>
+              <% else %>
+                <li></li>
+                <li></li>
+                <li></li>
+              <% end %>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
     <%= yield %>
+    <footer>
+      <div class="p-3 text-white">
+        <div class="container">
+          <div class="row">
+            <div class="mx-auto">
+              <p>© 2021 Beers</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
