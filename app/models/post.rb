@@ -1,5 +1,5 @@
 class Post < ApplicationRecord
   
-  attachment :image
+  attachment :post_image
   
 end
